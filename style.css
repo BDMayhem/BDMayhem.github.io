@@ -54,6 +54,10 @@ figcaption {
   line-height: 1em;
 }
 
+.ui.stackable.four.column.grid a {
+  color: black;
+}
+
 #young {
   height: 35vmin;
   border-radius: 10%;

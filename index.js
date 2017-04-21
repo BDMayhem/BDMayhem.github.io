@@ -46,8 +46,8 @@ var port = {
   },
   simon: {
     name: "Simon Game",
-    link: "http://codepen.io/BDMayhem/full/gmERXO/",
-    image: "",
+    link: "https://bdmayhem.github.io/simon/",
+    image: "https://68.media.tumblr.com/5e146e43eed26d1e1260919ba2576fd6/tumblr_ooqgim1bcj1wo45zvo1_1280.png",
   },
 }
 

@@ -51,6 +51,8 @@ figcaption {
 
 .ui.stackable.four.column.grid {
   font-size: .8em;
+  line-height: 1em;
+  margin: 0;
 }
 
 #young {
@@ -63,9 +65,8 @@ figcaption {
 }
 
 img.ui.fluid.image.port-image {
-  padding: 10px 0;
   margin: 0 auto;
-  border-radius: 5%
+  border-radius: 15%;
 }
 
 ul {
@@ -79,31 +80,3 @@ ul {
 .contact-links {
   font-size: 2.5em;
 }
-
-.wrap:after {
-  content: "";
-  display: block;
-}
-
-.footer, .wrap:after {
-  height: 50px; 
-}
-
-.footer {
-  background-color: #bd7629;
-}
-
-p#foot-pic {
-  font-size: 0.7em;
-  padding: 14px 20% 0px 0px;
-  float: right;
-}
-
-.fcc-logo {
-  height: 15px;
-  position: relative;
-  display:inline;
-  top: 4px;
-}
-
- 

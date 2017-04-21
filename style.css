@@ -66,6 +66,7 @@ figcaption {
 img.ui.fluid.image.port-image {
   margin: 0 auto;
   border-radius: 15%;
+  padding-bottom: 5px;
 }
 
 ul {

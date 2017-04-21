@@ -1,8 +1,12 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-color: #ddd;
+  background-color: #1d4666;
   font-family: Georgia, serif;
+}
+
+a {
+  color: black;
 }
 
 .wrap {

@@ -1,6 +1,6 @@
 var port = {
   tribute: {
-    name: "A Tribte to John Irving",
+    name: "A Tribute to John Irving",
     link: "https://bdmayhem.github.io/irving/",
     image: "https://68.media.tumblr.com/78ea31ed9beabce7cf88ef2a0cf618c1/tumblr_inline_oorr7lJDyV1t011w4_540.png",
   },

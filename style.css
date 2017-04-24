@@ -49,12 +49,12 @@ figcaption {
   line-height: 1;
 }
 
-.ui.stackable.four.column.grid {
+.ui.stackable.column.grid {
   font-size: .8em;
   line-height: 1em;
 }
 
-.ui.stackable.four.column.grid a {
+.ui.stackable.column.grid a {
   color: black;
 }
 

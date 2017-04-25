@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   background-color: #fcfff5;
-  font-family: Georgia, serif;
+  color: #193441;
 }
 
 a {
@@ -106,5 +106,3 @@ p#foot-pic {
   display:inline;
   top: 4px;
 }
-
- 

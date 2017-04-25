@@ -1,12 +1,12 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-color: #1d4666;
+  background-color: #fcfff5;
   font-family: Georgia, serif;
 }
 
 a {
-  color: #101050;
+  color: #3e606f;
 }
 
 .wrap {
@@ -17,7 +17,7 @@ a {
 }
 
 .ui.secondary.menu {
-  background-color: #bd7629;
+  background-color: #91aa9d;
   border: none;
   border-radius: 0;
   box-shadow: 0;
@@ -49,13 +49,9 @@ figcaption {
   line-height: 1;
 }
 
-.ui.stackable.column.grid {
+.ui.stackable.four.column.grid {
   font-size: .8em;
   line-height: 1em;
-}
-
-.ui.stackable.column.grid a {
-  color: black;
 }
 
 #young {
@@ -95,7 +91,7 @@ ul {
 }
 
 .footer {
-  background-color: #bd7629;
+  background-color: #91aa9d;
 }
 
 p#foot-pic {

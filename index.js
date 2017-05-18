@@ -47,7 +47,7 @@ var port = {
   circles: {
     name: "Random, Useless Circles",
     link: "https://bdmayhem.github.io/circles/",
-    image: "https://bdmayhem.github.io/circles/assets/circles.jpg"
+    image: "https://raw.githubusercontent.com/BDMayhem/BDMayhem.github.io/master/assets/circles.jpg"
   }
 }
 

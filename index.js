@@ -44,6 +44,11 @@ var port = {
     link: "https://bdmayhem.github.io/simon/",
     image: "https://68.media.tumblr.com/5e146e43eed26d1e1260919ba2576fd6/tumblr_ooqgim1bcj1wo45zvo1_540.png",
   },
+  circles: {
+    name: "Random, Useless Circles",
+    link: "https://bdmayhem.github.io/circles/",
+    image: "https://bdmayhem.github.io/circles/assets/circles.jpg"
+  }
 }
 
 $.each(port, function(key, value){

@@ -9,6 +9,10 @@ a {
   color: #91aa9d;
 }
 
+a i {
+  color: #3e606f;
+}
+
 .wrap {
   min-height: 100%;
   margin-bottom: -50px;

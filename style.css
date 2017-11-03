@@ -46,12 +46,17 @@ a i.file {
   overflow:auto;
 	padding-bottom: 50px;
   text-align: center;
-  margin: 25px 50px;  
+  margin: 2% 5%;  
   overflow-x: hidden;
 }
 
 .ui.horizontal.divider.header {
   margin-top: 50px;
+}
+
+figure {
+  position: relative;
+  overflow: hidden;
 }
 
 figcaption {
@@ -63,7 +68,23 @@ figcaption {
   font-size: .8em;
   line-height: 1em;
   margin: 0 auto; 
-  width: 80%; 
+  width: 80%;
+  padding: 10px 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+  #main {
+    margin: 0 2%;
+  }
+  .ui.stackable.three.column.grid {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ui.fluid.description {
+    font-size: 1.3rem;
+  }
 }
 
 #young {
@@ -79,6 +100,23 @@ img.ui.fluid.image.port-image {
   margin: 0 auto;
   border-radius: 15%;
   padding-bottom: 5px;
+  z-index: -1;
+}
+
+.description {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  background: rgba(100,100,100,0.8);
+  padding: 10%;
+  text-shadow: 0 1px #aaa;
+  border-radius: 15%;
+  line-height: 1.1;
+  font-size: 1.8vw;
+}
+
+.description:hover {
+  opacity: 1;
 }
 
 ul {

@@ -9,6 +9,7 @@ const port = {
     link: "https://bdmayhem.github.io/movie-quotes/",
     image: "assets/quote.png",
   },
+  
   weather: {
     name: "Local Weather",
     link: "https://bdmayhem.github.io/weather/",
@@ -57,10 +58,33 @@ const port = {
   dtc: {
     name: "Deep Town Calc",
     link: "https://bdmayhem.github.io/DeepTownCalc",
-    image: "assets/dtc.png"
+    image: "assets/dtc.png",
+    description: ""
+  },
+  grandmasRecipes: {
+    name: "Grandma's Recipes",
+    link: "https://bdmayhem.github.io/GrandmasRecipes/",
+    image: "assets/grandmasrecipes.png",
+    description: "React-based SPA recipe book allowing users to create, read, update, and destroy searchable Local Storage data "
   }
 };
 
 $.each(port, function(key, value){
-  $(".stackable").prepend(`<div class="column"><figure><a href="${value.link}" target="_blank"><img class="ui fluid image port-image" src="${value.image}" alt="${value.name}"<figcaption>${value.name}</figcaption></a></figure></div>`);
+  let hasDescription = '';
+
+  if(value.hasOwnProperty('description')) {
+     hasDescription = `<div class="ui fluid description">${value.description}</div>`;
+  };
+  
+  $(".stackable").prepend(`<div class="column"><figure>${hasDescription}<a href="${value.link}" target="_blank"><img class="ui fluid image port-image" src="${value.image}" alt="${value.name}"<figcaption>${value.name}</figcaption></a></figure></div>`);
+
 });
+
+function getWidth() {
+  const imageWidth = $(".port-image").width();
+  $(".description").css("height", imageWidth)
+}
+
+setTimeout(() => getWidth(), 100);
+
+$(window).resize(getWidth);

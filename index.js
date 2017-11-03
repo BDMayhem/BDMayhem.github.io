@@ -76,7 +76,7 @@ $.each(port, function(key, value){
      hasDescription = `<div class="ui fluid description">${value.description}</div>`;
   };
   
-  $(".stackable").prepend(`<div class="column"><figure>${hasDescription}<a href="${value.link}" target="_blank"><img class="ui fluid image port-image" src="${value.image}" alt="${value.name}"<figcaption>${value.name}</figcaption></a></figure></div>`);
+  $(".stackable").prepend(`<div class="column"><figure><a href="${value.link}" target="_blank">${hasDescription}<img class="ui fluid image port-image" src="${value.image}" alt="${value.name}"<figcaption>${value.name}</figcaption></a></figure></div>`);
 
 });
 

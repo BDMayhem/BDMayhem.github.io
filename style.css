@@ -119,6 +119,10 @@ img.ui.fluid.image.port-image {
   opacity: 1;
 }
 
+a .description {
+  color: #193441;
+}
+
 ul {
   list-style-type: none;
   margin: 0;

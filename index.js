@@ -59,7 +59,7 @@ const port = {
     name: "Deep Town Calc",
     link: "https://bdmayhem.github.io/DeepTownCalc",
     image: "assets/dtc.png",
-    description: ""
+    description: "Vanilla JS SPA to calculate best choices for mobile game 'Deep Town'"
   },
   grandmasRecipes: {
     name: "Grandma's Recipes",

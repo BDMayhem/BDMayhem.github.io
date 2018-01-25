@@ -10,32 +10,30 @@
   
       gtag('config', 'UA-109308975-1');
     </script>
+
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>BD's Portfolio</title>
     
-    
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.css'>
     <link rel="icon" type="image/png" href="assets/favicon-16.png" sizes="16x16">  
     <link rel="stylesheet" href="style.css">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' defer></script>
-    <script src="index.js" defer></script>
+    <script src="bundle.js" defer></script>
   </head>
 
 <body>
-<div class="wrap">
-  <div class="ui secondary menu">
-    <div class="item" id="left">BD</div>
-    <div class="right menu" id="right">
-      <a class="item" href="#portfolio">Portfolio</a>
-      <a class="item" href="#contact">Contact</a>
-    </div>
-  </div>
+  <nav>
+    <ul>
+      <li class="logo"><a class="item" href="#about">BD</a></li>
+      <li><a class="item" href="#portfolio">Portfolio</a></li>
+      <li><a class="item" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <div id="main">
-    <div id="home">
-      <h2 class="ui horizontal divider header">
-        <i class="child icon"></i>
-            BD
+  <main>
+    <section id="about" class="anchor">
+      <h2 class="">
+        BD
       </h2>
 
       <p>Hi.  It's me.</p>
@@ -43,18 +41,17 @@
         <img src="assets/me.jpg" id="young" alt="My younger self">
         <figcaption>This is a picture of me.  I'm older than that now.</figcaption> 
       </figure>
-    </div>
+    </section>
 
 
-    <div id="portfolio">
-      <h2 class="ui horizontal divider header">
-        <i class="university icon"></i>
+    <section id="portfolio" class="anchor">
+      <h2 class="">
             Stuff
       </h2>
       <p>I'm making stuff.
       <br>This is some of the stuff I've made.</p>
 
-      <div class="ui stackable three column grid">
+      <div class="">
         <!-- port stuff from js -->
       </div>
       
@@ -78,30 +75,28 @@
         </ul>
       <p></p>
       <p>I've also dabbled in <a href="http://www.briandiazphotography.com" target="_blank">photography</a>.</p>
-      </div>
+      </section>
     
     
-    <div id="contact">
-      <h2 class="ui horizontal divider header">
-        <i class="mail outline icon"></i>
+    <section id="contact" class="anchor">
+      <h2 class="">
             Contact
       </h2>
       <p>Hit me up.</p>
-      
-      <div class="contact-links">
-        <a href="https://www.facebook.com/brian.diaz.52643" target="_blank" alt="Facebook"><i class="facebook square icon"></i></a>
-        <a href="https://www.linkedin.com/in/brian-diaz-6414b539" target="_blank" alt="LinkedIn"><i class="linkedin square icon"></i></a>
-        <a href="https://github.com/BDMayhem" target="_blank" alt="GitHub"><i class="github square icon"></i></a>
-        <a href="https://twitter.com/bdmayhem" target="_blank" alt="Twitter"><i class="twitter square icon"></i></a>
-        <a href="https://bdmayhem.github.io/blog" target="_blank" alt="Blog"><i class="file text icon"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="footer">
-  <p id="foot-pic">BDMayhem</p>
-</div>
+      <div class="contact-links">
+        <a href="https://www.facebook.com/brian.diaz.52643" target="_blank" alt="Facebook"><i class=""></i></a>
+        <a href="https://www.linkedin.com/in/brian-diaz-6414b539" target="_blank" alt="LinkedIn"><i class=""></i></a>
+        <a href="https://github.com/BDMayhem" target="_blank" alt="GitHub"><i class=""></i></a>
+        <a href="https://twitter.com/bdmayhem" target="_blank" alt="Twitter"><i class=""></i></a>
+        <a href="https://bdmayhem.github.io/blog" target="_blank" alt="Blog"><i class=""></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="foot-pic">BDMayhem</p>
+  </footer>
 
 </body>
 </html>

@@ -1,10 +1,7 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
 body {
   margin: 65px 0 0;
   padding: 0;
+  font-size: 1.5em;
 }
 
 section.anchor::before {
@@ -17,7 +14,6 @@ section.anchor::before {
 /* NAVBAR */
 
 nav {
-  font-size: 1.5em;
   margin: 0;
   padding: 0;
   position: fixed;
@@ -45,3 +41,41 @@ li a {
   margin-right: auto;
 }
 
+/* ABOUT */
+
+h2 {
+  text-align: center;
+}
+
+.young {
+  border-radius: 50%;
+  border: 3px solid black;
+  height: 200px;
+}
+
+.about {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .about {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  figure {
+    order: 2;
+  }
+
+  .young {
+    height: 30vw;
+    max-height: 300px;
+  }
+}

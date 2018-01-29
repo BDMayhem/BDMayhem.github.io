@@ -54,7 +54,7 @@ h2 {
 }
 
 .about {
-  margin: 10%;
+  margin: 3% 10%;
   display: flex;
   flex-direction: column;
   align-items: center;

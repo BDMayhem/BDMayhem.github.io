@@ -2,6 +2,8 @@ body {
   margin: 65px 0 0;
   padding: 0;
   font-size: 1.5em;
+  background-color: #eee;
+  text-align: center;
 }
 
 section.anchor::before {
@@ -26,8 +28,11 @@ nav ul {
   margin: 0 5%;
   padding: 0;
   text-decoration: none;
-  list-style: none;
   display: flex;
+}
+
+ul {
+  list-style: none;
 }
 
 li a {
@@ -42,10 +47,6 @@ li a {
 }
 
 /* ABOUT */
-
-h2 {
-  text-align: center;
-}
 
 .young {
   border-radius: 50%;
@@ -79,3 +80,56 @@ figcaption {
     max-height: 300px;
   }
 }
+
+/* PORTFOLIO */
+
+.port-items {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; 
+  text-align: center; 
+}
+
+.port-items:after {
+  content: "";
+  flex: auto;
+}
+
+.port-item {
+  display: inline-block;
+  margin: 4% 2%;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 3px   6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.port-item:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.port-item img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  .port-items {
+    width: 85%;
+  }
+
+  .port-item {
+    width: 46%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .port-items {
+    width: 75%;
+  }
+
+  .port-item {
+    width: 29.3%;
+  }
+}
+

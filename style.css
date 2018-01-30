@@ -133,3 +133,44 @@ figcaption {
   }
 }
 
+/* CONTACT */
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.email-form input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 500px) {
+  .email-form {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .email-form {
+    width: 40%;
+  }
+}
+
+.contact-links {
+  margin: 3%;
+}
+
+.square {
+  font-size: 5rem;
+  margin: 1%;
+  color: #444;
+}
+
+.blog {
+  font-size: 4.4rem;
+  color: #444;
+  margin: 1% 1% 1.4%;
+}

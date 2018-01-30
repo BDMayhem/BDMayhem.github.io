@@ -8,10 +8,10 @@ const port = [
     link: "https://bdmayhem.github.io/movie-quotes/",
     image: "assets/quote.png",
   },{
-    name: "Local Weather",
-    link: "https://bdmayhem.github.io/weather/",
-    image: "assets/weather.png",
-  },{
+  //   name: "Local Weather",
+  //   link: "https://bdmayhem.github.io/weather/",
+  //   image: "assets/weather.png",
+  // },{
     name: "Search Wikipedia",
     link: "https://bdmayhem.github.io/search-wiki/",
     image: "assets/wiki.png",

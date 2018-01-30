@@ -6,6 +6,10 @@ body {
   text-align: center;
 }
 
+section {
+  margin-bottom: 85px;
+}
+
 section.anchor::before {
   display: block;
   content: " ";
@@ -83,6 +87,11 @@ figcaption {
 
 /* PORTFOLIO */
 
+.portfolio {
+  background-color: #444;
+  color: #ccc;
+}
+
 .port-items {
   margin: 0 auto;
   width: 90%;
@@ -90,6 +99,11 @@ figcaption {
   flex-flow: row wrap;
   justify-content: space-between; 
   text-align: center; 
+}
+
+.port-items a {
+  color: #222;
+  text-decoration: none;
 }
 
 .port-items:after {
@@ -101,6 +115,7 @@ figcaption {
   display: inline-block;
   margin: 4% 2%;
   width: 100%;
+  color: #333;
   background-color: #fff;
   box-shadow: 0 3px   6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }

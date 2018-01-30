@@ -1,9 +1,9 @@
 const port = [
   {
-    name: "A Tribute to John Irving",
-    link: "https://bdmayhem.github.io/irving/",
-    image: "assets/tribute.png",
-  },{
+  //   name: "A Tribute to John Irving",
+  //   link: "https://bdmayhem.github.io/irving/",
+  //   image: "assets/tribute.png",
+  // },{
     name: "Movie Quote Machine",
     link: "https://bdmayhem.github.io/movie-quotes/",
     image: "assets/quote.png",
@@ -42,17 +42,18 @@ const port = [
   },{
     name: "Green Apple Weddings",
     link: "http://greenappleweddings.com",
-    image: "assets/ga.jpg"
+    image: "assets/ga.jpg",
+    description: "HTML, MaterializeCSS, jQuery"
   },{
     name: "Deep Town Calc",
     link: "https://bdmayhem.github.io/DeepTownCalc",
     image: "assets/dtc.png",
-    description: "Vanilla JS SPA to calculate best choices for mobile game 'Deep Town'"
+    description: "HTML, CSS, Vanilla JS - Single Page App to calculate best choices for mobile game 'Deep Town'"
   },{
     name: "Grandma's Recipes",
     link: "https://bdmayhem.github.io/GrandmasRecipes/",
     image: "assets/grandmasrecipes.png",
-    description: "React-based SPA recipe book allowing users to create, read, update, and destroy searchable Local Storage data "
+    description: "React, LocalStorage, React-Bootstrap - Create, Read, Update, and Destroy local receipe data"
   }
 ];
 

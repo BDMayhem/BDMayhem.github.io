@@ -27,8 +27,6 @@ section.anchor::before {
 nav {
   margin: 0;
   padding: 0;
-  position: fixed;
-  top: 0;
   width: 100%;  
   background: #222;
 }
@@ -44,6 +42,12 @@ nav ul {
   body {
     margin: 65px 0 0;
   }
+
+  nav {
+    position: fixed;
+    top: 0;
+  }
+
   nav ul {
     display: flex;
   }

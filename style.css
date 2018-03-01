@@ -2,17 +2,20 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1.5em;
-  background-color: #fafafa;
+  background-color: #f6f6e9;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  color: #12344C;
 }
 
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-section {
-  padding: 1em 0;
+@media screen and (max-width: 569px) {
+  section {
+    padding: 1em 0;
+  }
 }
 
 /* NAVBAR */
@@ -21,7 +24,7 @@ nav {
   margin: 0;
   padding: 0;
   width: 100%;  
-  background: #222;
+  background: #f2855e;
 }
 
 nav ul {
@@ -46,13 +49,15 @@ nav ul {
   }
 
   section {
-    padding-bottom: 85px;
-    margin-bottom: 85px;
+    padding-bottom: 65px;
+    margin-bottom: 65px;
   }
   
   section.anchor::before {
-    padding-top: 65px;
-    margin-top: -65px;
+    content: '';
+    display: block;
+    height: 50px;
+    margin-top: -50px;
   }
 }
 
@@ -65,7 +70,7 @@ li a, li span {
   display: block;
   padding: 20px;
   text-decoration: none;
-  color: #eee;
+  color: #12344c;
 }
 
 .logo {
@@ -119,8 +124,8 @@ ul.jargon {
 /* PORTFOLIO */
 
 .portfolio {
-  background-color: #444;
-  color: #ccc;
+  background-color: #194769;
+  color: #f6f6e9;
 }
 
 .port-items {
@@ -133,7 +138,7 @@ ul.jargon {
 }
 
 .port-items a {
-  color: #222;
+  color: #194769;
   text-decoration: none;
 }
 
@@ -147,7 +152,7 @@ ul.jargon {
   margin: 4% 2%;
   width: 100%;
   color: #333;
-  background-color: #f5f5f5;
+  background-color: #f6f6e9;
   box-shadow: 0 3px   6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
@@ -214,11 +219,11 @@ ul.jargon {
 .square {
   font-size: 5rem;
   margin: 1%;
-  color: #444;
+  color: #194769;
 }
 
 .blog {
   font-size: 4.4rem;
-  color: #444;
+  color: #194769;
   margin: 1% 1% 1.4%;
 }

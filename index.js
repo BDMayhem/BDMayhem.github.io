@@ -58,7 +58,7 @@ const port = [
     name: "CoverBuild",
     link: "https://bdmayhem.github.io/CoverBuild",
     image: "assets/coverbuild.png",
-    description: "React, LocalStorage, react-md - Manage and customize personalized cover letters for job applications"
+    description: "React, LocalStorage, react-md, SASS - Manage and customize personalized cover letters for job applications"
   },{
     name: "SlideRank",
     link: "https://sliderank.herokuapp.com/",

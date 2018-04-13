@@ -45,15 +45,20 @@ const port = [
     image: "assets/ga.jpg",
     description: "HTML, MaterializeCSS, jQuery"
   },{
+    name: "Grandma's Recipes",
+    link: "https://bdmayhem.github.io/GrandmasRecipes/",
+    image: "assets/grandmasrecipes.png",
+    description: "React, LocalStorage, React-Bootstrap - Create, Read, Update, and Destroy local receipe data"
+  },{
     name: "Deep Town Calc",
     link: "https://bdmayhem.github.io/DeepTownCalc",
     image: "assets/dtc.png",
     description: "HTML, CSS, Vanilla JS - Single Page App to calculate best choices for mobile game 'Deep Town'"
   },{
-    name: "Grandma's Recipes",
-    link: "https://bdmayhem.github.io/GrandmasRecipes/",
-    image: "assets/grandmasrecipes.png",
-    description: "React, LocalStorage, React-Bootstrap - Create, Read, Update, and Destroy local receipe data"
+    name: "CoverBuild",
+    link: "https://bdmayhem.github.io/CoverBuild",
+    image: "assets/coverbuild.png",
+    description: "React, LocalStorage, react-md - Manage and customize personalized cover letters for job applications"
   },{
     name: "SlideRank",
     link: "https://sliderank.herokuapp.com/",
